@@ -191,7 +191,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
     setSecret("0");
   }
 
-  const handleVote = (leader)=>{
+  const handleVote = (leader:string)=>{
     if(leader === "Narendra Modi"){
         setSecret("1");
     } else if(leader === "Rahul Gandhi"){
